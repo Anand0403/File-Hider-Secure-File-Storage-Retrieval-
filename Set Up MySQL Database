@@ -1,0 +1,16 @@
+CREATE DATABASE file_hider_project;
+USE file_hider_project;
+
+CREATE TABLE users (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL
+);
+
+CREATE TABLE data (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    filename VARCHAR(100),
+    path VARCHAR(255),
+    email VARCHAR(100),
+    bin_data LONGBLOB
+);
