@@ -1,0 +1,12 @@
+1️⃣ User signs up → Enters email and receives an OTP for verification.
+2️⃣ User logs in → OTP is required again for authentication.
+3️⃣ User accesses features (hide/unhide file)
+
+1️⃣ Hiding a File (hideFiles)
+✔ Reads the file from the system.
+✔ Converts it into binary format (LONGBLOB) and stores it in MySQL.
+✔ Deletes the file from the local system after successful storage.
+
+2️⃣ Unhiding a File (unhide)
+✔ Retrieves the hidden file from MySQL using file ID.
+✔ Saves the retrieved file back to the system.
