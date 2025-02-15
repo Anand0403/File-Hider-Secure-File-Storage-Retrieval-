@@ -1,0 +1,20 @@
+FileHiderProject/
+│── src/
+│   ├── DAO/
+│   │   ├── DataDAO.java  # Handles file storage & retrieval
+│   │   ├── UserDAO.java  # Manages user authentication
+│   ├── dB/
+│   │   ├── MyConnection.java  # Database connection handling
+│   ├── Model/
+│   │   ├── Data.java  # Data model for stored files
+│   │   ├── User.java  # User model
+│   ├── Service/
+│   │   ├── GenerateOTP.java  # OTP generator
+│   │   ├── SendOTPService.java  # Email OTP sender
+│   │   ├── UserService.java  # User authentication service
+│   ├── Views/
+│   │   ├── Welcome.java  # CLI for user interaction
+│   │   ├── UserView.java  # Handles user inputs
+│   ├── Main.java  # Main application entry point
+├── pom.xml  # Maven dependencies
+├── README.md  # Project documentation
