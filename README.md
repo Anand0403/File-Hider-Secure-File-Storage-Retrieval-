@@ -29,5 +29,5 @@ The `unhide` function retrieves hidden files from the database, reconstructs the
 ### 🔹 Setup & Installation  
 #### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/yourusername/FileHiderProject.git
-cd FileHiderProject
+git clone https://github.com/Anand0403/File-Hider-Secure-File-Storage-Retrieval-
+
